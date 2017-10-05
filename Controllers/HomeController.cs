@@ -4,14 +4,14 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using reformaagraria.Data;
+using reforma_agraria.Data;
 
-namespace reformaagraria.Controllers
+namespace reforma_agraria.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly RADataContext db;
-        public HomeController(RADataContext context)
+        private readonly ReformaAgrariaDbContext db;
+        public HomeController(ReformaAgrariaDbContext context)
         {
             db = context;
         }
