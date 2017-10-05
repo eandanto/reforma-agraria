@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Laporan Pertemuan";
+}
+
+<!--start style section-->
+<link type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--end style section-->
+
+<!--start section-->
+<section class="row">
+        <div class="col-12 kartu">
+        <div class="card w-100 h-100">
+            <div class="card-body">
+                <h4 class="card-title">Form Laporan Pertemuan</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4" class="col-form-label">Kegiatan Acara</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Kegiatan Acara">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4" class="col-form-label">Tempat</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Tempat">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputPassword4" class="col-form-label">Tanggal</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Tanggal">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputAddress" class="col-form-label">Agenda Pembahasan</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputAddress2" class="col-form-label">Uraian Hasil</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="inputCity" class="col-form-label">Daftar Peserta</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState" class="col-form-label">Tingkat pertemuan</label>
+                            <select id="inputState" class="form-control">
+                                <option selected class="text-muted">Pilih tingkat pertemuan...</option>
+                                <option value="1">Desa</option>
+                                <option value="2">Kecamatan</option>
+                                <option value="3">kabupaten</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label class="custom-file">
+                                <input type="file" class="custom-file-input" required id="exampleFormControlFile1">
+                                <span class="custom-file-control text-muted">Unggah berkas</span>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+                
+                <div class="row">
+                    <div class="col-6 col-md-2 col-sm-4 col-xs-12">
+                        <button type="submit" class="btn btn-primary btn-block">Simpan</button>
+                    </div>
+                    <div class="col-6 col-md-2 col-sm-4 col-xs-12">
+                        <button type="submit" class="btn btn-danger btn-block">Hapus</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<!--end fo section-->
+
